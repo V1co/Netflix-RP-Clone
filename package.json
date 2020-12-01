@@ -1,0 +1,50 @@
+{
+  "name": "netflix-clone",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://rafal-pawlowski.com/",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.0",
+    "fuse.js": "^6.4.3",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-multi-carousel": "^2.5.5",
+    "react-player": "^2.7.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "styled-components": "^5.2.1",
+    "styled-icons": "^10.22.0",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --inline --content-base . --history-api-fallback",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
